@@ -1,0 +1,56 @@
+ HTML (index.html)
+
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML y CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Página de Ejemplo</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introducción</h2>
+            <p>Este es un ejemplo sencillo de cómo estructurar una página web básica utilizando HTML y CSS.</p>
+        </section>
+
+        <section>
+            <h2>Imagen y Enlace</h2>
+            <figure>
+                <img src="imagen.jpg" alt="Descripción de la imagen">
+                <figcaption>Figura 1: Descripción de la imagen.</figcaption>
+            </figure>
+            <p>Visita nuestro sitio web para más información: <a href="https://www.ejemplo.com">www.ejemplo.com</a></p>
+        </section>
+    </main>
+</body>
+</html>
+
+
+Archivo CSS (styles.css)
+
+css
+/* Estilos para el cuerpo de la página */
+body {font-family: Arial, sans-serif;line-height: 1.6;margin: 0;padding: 0;background-color: #f0f0f0;}
+
+/* Estilos para el encabezado */
+header {background-color: #333;color: #fff;text-align: center; padding: 10px 0;}
+
+/* Estilos para los títulos */h1, h2 {color: #333;}
+
+/* Estilos para el contenido principal */
+main {max-width: 800px;margin: 20px auto;padding: 0 20px;}
+
+/* Estilos para las imágenes */
+img { max-width: 100%;height: auto;display: block;margin: 10px auto;}
+
+/* Estilos para los enlaces */
+a {color: #007bff;text-decoration: none;}
+
+a:hover {text-decoration: underline;}
